@@ -1,0 +1,16 @@
+/* --- Libraries --- */
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+///<summary>
+///
+///<summary>
+public class PlayButton : Button {
+
+    protected override void Activate() {
+        GameRules.Arena.Play();
+    }
+
+}
